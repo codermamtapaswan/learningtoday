@@ -1,0 +1,1409 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning Today</title>
+  <link rel='stylesheet' id='bootstrap-css' href='https://learningtoday.net/wp-content/themes/learning-today/assets/vendor/bootstrap/css/bootstrap.min.css?ver=1703829564' type='text/css' media='all' />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- fontawsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel='stylesheet' id='learning-today-css' href='https://learningtoday.net/wp-content/themes/learning-today/assets/css/style.css?ver=1704976160' type='text/css' media='all' />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <style></style>
+</head>
+
+<body>
+  <section id="topbar" class="fixed-top ">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="contact-info d-flex anchor-color">
+        <a href="mailto:contact@example.com" class="text-white text-decoration-none">
+          <i class="fa-regular fa-envelope-open me-2"></i>contact@Learningtoday.com </a>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-pinterest-p"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <nav class="navbar navbar-default navbar-expand-lg fixed-top  bg-body-tertiary py-2 pt-5 pb-lg-0 pb-3">
+    <div class="container ">
+      <a class="navbar-brand me-auto me-lg-none" href="#">
+        <img src="assets/img/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-">
+          <li class="nav-item me-3">
+            <a class="nav-link cool-link" aria-current="page" href="#">Study Materials</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link cool-link" href="#">Scholarship</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link cool-link" href="#">Commerce</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link cool-link" href="#">NEET</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link cool-link" href="#">CBSE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link cool-link" href="#">JEE</a>
+          </li>
+          <!-- <div class="d-lg-none d-block"><form role="search" method="get" action="#"><div class="input-group search-box d-flex"><input type="text" id="search" required="" class="form-control" placeholder="Search Here..." value="" name="s" title="Search for:"><div class="input-group-append"><button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button></div></div></form></div> -->
+        </ul>
+      </div>
+      <div class="search ms-lg-5 me-2">
+        <!-- <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a> -->
+        <a href="#" class="openBtn">
+          <i class="fa fa-search"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="mob-search">
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" title="Close Overlay">×</span>
+      <div class="overlay-content">
+        <form class="" role="search" method="get" action="#">
+          <input id="search" required class="" type="text" placeholder="Enter Keywords..." value="" name="s"
+            title="Search for:" />
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <section class="hero-header d-flex align-items-center">
+    <div class="container">
+      <div class="row mt-lg-5 mt-lg-0 mb-5 mb-lg-0">
+        <div class="col-lg-6 mt-lg-5 mt-4">
+          <div class=" rbt-new-badge-one mb-4"><span class="rbt-new-badge-icon me-1">🏆</span> The Leader in Online
+            Learning
+          </div>
+          <h1 class="fw-bold"> The Largest Online Learning Platform for Drive Your Career. </h1>
+          <!-- new -->
+          <form action="" class="learning-head-form my-4">
+            <div class="input-group">
+              <input type="text" placeholder="Search Courses..." required>
+              <button type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M21 21L16.65 16.65" stroke="black" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <!-- <i class="fa fa-search"></i> -->
+              </button>
+            </div>
+          </form>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="assets/img/udemy-favicon.svg" alt="" class="img-fluid">
+                <span>Udemy</span>
+              </a>
+            <li>
+              <a href="#">
+                <img src="assets/img/coursera-favicon.svg" alt="" class="img-fluid">
+                <span>Coursera</span>
+              </a>
+            <li>
+              <a href="#">
+                <img src="assets/img/skillshare-favicon.svg" alt="" class="img-fluid">
+                <span>Skill Share</span>
+              </a>
+            <li>
+              <a href="#">
+                <img src="assets/img/youtube-favicon.svg" alt="" class="img-fluid">
+                <span>YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/img/datacamp-favicon.svg " alt="" class="img-fluid">
+                <span>Datacamp</span>
+              </a>
+            </li>
+          </ul>
+          <!-- new html end -->
+          <a href="#" class="btn btn-primary">View Course </a>
+        </div>
+        <div class="col-lg-6 d-none d-md-block mt-lg-4  mt-2">
+          <div class="hero-card">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swip-card p-2">
+                    <div class="swip-img">
+                      <a href="#">
+                        <img src="https://getassist.net/wp-content/uploads/2023/03/online-education-1.webp"
+                          class="img-fluid" alt="">
+                      </a>
+                    </div>
+                    <div class="swip-card-content mt-2 px-2">
+                      <div class="date text-decoration-none fw-semibold" href="#">
+                        <span class="gr-text">02</span>
+                        <br> May
+                      </div>
+                      <div class="swip-card-category mb-3 text-center">
+                        <a href="#" class="text-decoration-none text-white"> General</a>
+                      </div>
+                      <div class="swip-heading card-heading">
+                        <a href="#" class="text-decoration-none ">CIPD - Chartered Institute of Personnel and
+                          Development</a>
+                      </div>
+                      <div class="swip-description mt-1"> It has survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. </div>
+                      <hr class="text-dark my-3">
+                      <div class="author swiper-card-author">
+                        <a href="#" class="text-decoration-none primary">
+                          <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swip-card p-2">
+                    <div class="swip-img">
+                      <a href="#">
+                        <img src="https://getassist.net/wp-content/uploads/2023/03/online-education-1.webp"
+                          class="img-fluid" alt="">
+                      </a>
+                    </div>
+                    <div class="swip-card-content mt-2 px-2">
+                      <div class="date text-decoration-none fw-semibold" href="#">
+                        <span class="gr-text">02</span>
+                        <br> May
+                      </div>
+                      <div class="swip-card-category mb-3 text-center">
+                        <a href="#" class="text-decoration-none text-white"> General</a>
+                      </div>
+                      <div class="swip-heading card-heading">
+                        <a href="#" class="text-decoration-none">CIPD - Chartered Institute of Personnel and
+                          Development</a>
+                      </div>
+                      <div class="swip-description mt-1"> It has survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. </div>
+                      <hr class="text-dark my-3">
+                      <div class="author swiper-card-author">
+                        <a href="#" class="text-decoration-none primary">
+                          <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swip-card p-2">
+                    <div class="swip-img">
+                      <a href="#">
+                        <img src="https://getassist.net/wp-content/uploads/2023/03/online-education-1.webp"
+                          class="img-fluid" alt="">
+                      </a>
+                    </div>
+                    <div class="swip-card-content mt-2 px-2">
+                      <div class="date text-decoration-none fw-semibold" href="#">
+                        <span class="gr-text">02</span>
+                        <br> May
+                      </div>
+                      <div class="swip-card-category mb-3 text-center">
+                        <a href="#" class="text-decoration-none text-white"> General</a>
+                      </div>
+                      <div class="swip-heading card-heading">
+                        <a href="#" class="text-decoration-none">CIPD - Chartered Institute of Personnel and
+                          Development</a>
+                      </div>
+                      <div class="swip-description mt-1"> It has survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. </div>
+                      <hr class="text-dark my-3">
+                      <div class="author swiper-card-author">
+                        <a href="#" class="text-decoration-none primary">
+                          <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- new html -->
+  <section class="about mt-5 ">
+    <div class="container">
+      <div class="sub-heading">
+        <i class="fa-regular fa-newspaper fs-2"></i> Latest Coursers
+      </div>
+      <div class="heading">
+        Get the latest news analysis online education. </div>
+      <div class="seprator d-flex">
+        <div class="sm-yellow mt-2 me-1"></div>
+        <div class="big-line mt-2"></div>
+        <div class="sm-blue mt-2 ms-1"></div>
+      </div>
+      <div class="row row-cols-auto row-cols-lg-5 row-cols-md-3 mb-2 mt-4">
+        <div class="col mb-4">
+          <div class="img-placeholder">
+            <a href="">
+              <img class="img-fluid" src="https://getassist.net/wp-content/uploads/2023/02/facebook-news-feed.webp"
+                alt="">
+            </a>
+          </div>
+          <div class="learning-card">
+            <a class="learn-title d-block mt-3" href="#"> How To Transfer All Your Legal Affairs to Online </a>
+
+            <div class="learning-timeline d-flex justify-content-between align-items-center">
+              <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+              <span class="learning-date ">Nov 20th</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 ">
+          <div class="img-placeholder">
+            <a href="">
+              <img class="img-fluid"
+                src="https://getassist.net/wp-content/uploads/2023/03/Apple-Watch-Wont-Swipe-Up-or-Not-Working.webp"
+                alt="">
+            </a>
+          </div>
+          <div class="learning-card">
+            <a class="learn-title d-block mt-3" href="#"> How To Transfer All Your Legal Affairs to Online </a>
+
+            <div class="learning-timeline d-flex justify-content-between align-items-center">
+              <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+              <span class="learning-date ">Nov 20th</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="img-placeholder">
+            <a href="">
+              <img class="img-fluid"
+                src="https://getassist.net/wp-content/uploads/2023/08/something-went-wrong-youtube.webp" alt="">
+            </a>
+          </div>
+          <div class="learning-card">
+            <a class="learn-title d-block mt-3" href="#"> How To Transfer All Your Legal Affairs to Online </a>
+
+            <div class="learning-timeline d-flex justify-content-between align-items-center">
+              <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+              <span class="learning-date ">Nov 20th</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="img-placeholder">
+            <a href="">
+              <img class="img-fluid"
+                src="https://getassist.net/wp-content/uploads/2023/07/Apple-Watch-Stuck-on-Apple-Logo.webp" alt="">
+            </a>
+          </div>
+          <div class="learning-card">
+            <a class="learn-title d-block mt-3" href="#"> How To Transfer All Your Legal Affairs to Online </a>
+
+            <div class="learning-timeline d-flex justify-content-between align-items-center">
+              <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+              <span class="learning-date ">Nov 20th</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="img-placeholder">
+            <a href="">
+              <img class="img-fluid"
+                src="https://getassist.net/wp-content/uploads/2023/10/practices-for-torrenting-safely-with-a-windows-vpn.webp"
+                alt="">
+            </a>
+          </div>
+          <div class="learning-card">
+            <a class="learn-title d-block mt-3" href="#"> How To Transfer All Your Legal Affairs to Online </a>
+
+            <div class="learning-timeline d-flex justify-content-between align-items-center">
+              <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+              <span class="learning-date ">Nov 20th</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 mb-4">
+          <div class="row align-items-center">
+            <div class="col-lg-4">
+              <div class="img-placeholder">
+                <a href="">
+                  <img class="img-fluid"
+                    src="https://getassist.net/wp-content/uploads/2023/08/something-went-wrong-youtube.webp" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="learning-card">
+                <a class="learn-title d-block mt-3 mt-lg-0" href="#"> How To Transfer All Your Legal Affairs to Online
+                </a>
+
+                <div class="learning-timeline d-flex justify-content-between align-items-center">
+                  <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+                  <span class="learning-date ">Nov 20th</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4">
+          <div class="row align-items-center">
+            <div class="col-lg-4">
+              <div class="img-placeholder">
+                <a href="">
+                  <img class="img-fluid"
+                    src="https://getassist.net/wp-content/uploads/2023/01/Facebook-Profile-Lock.webp" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="learning-card">
+                <a class="learn-title d-block mt-3 mt-lg-0" href="#"> How To Transfer All Your Legal Affairs to Online
+                </a>
+                <div class="learning-timeline d-flex justify-content-between align-items-center">
+                  <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+                  <span class="learning-date ">Nov 20th</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4">
+          <div class="row align-items-center">
+            <div class="col-lg-4">
+              <div class="img-placeholder">
+                <a href="">
+                  <img class="img-fluid"
+                    src="https://getassist.net/wp-content/uploads/2023/01/facebook-messenger-notification-wont-go-away-1.webp"
+                    alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <drow class="learning-card">
+                <a class="learn-title d-block mt-3 mt-lg-0" href="#"> How To Transfer All Your Legal Affairs to Online
+                </a>
+                <div class="learning-timeline d-flex justify-content-between align-items-center">
+                  <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+                  <span class="learning-date ">Nov 20th</span>
+                </div>
+              </drow row-cols-auto row-cols-lg-5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 mb-4">
+          <div class="row align-items-center">
+            <div class="col-lg-4">
+              <div class="img-placeholder">
+                <a href="">
+                  <img class="img-fluid"
+                    src="https://getassist.net/wp-content/uploads/2023/05/alexa-not-responding.webp" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="learning-card">
+                <a class="learn-title d-block mt-3 mt-lg-0" href="#"> How To Transfer All Your Legal Affairs to Online
+                </a>
+                <div class="learning-timeline d-flex justify-content-between align-items-center">
+                  <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+                  <span class="learning-date ">Nov 20th</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4">
+          <div class="row align-items-center">
+            <div class="col-lg-4">
+              <div class="img-placeholder">
+                <a href="">
+                  <img class="img-fluid"
+                    src="https://getassist.net/wp-content/uploads/2023/10/samsung-dryer-not-heating.webp" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="learning-card">
+                <a class="learn-title d-block mt-3 mt-lg-0" href="#"> How To Transfer All Your Legal Affairs to Online
+                </a>
+                <div class="learning-timeline d-flex justify-content-between align-items-center">
+                  <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+                  <span class="learning-date ">Nov 20th</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4">
+          <div class="row align-items-center">
+            <div class="col-lg-4">
+              <div class="img-placeholder">
+                <a href="">
+                  <img class="img-fluid" src="https://getassist.net/wp-content/uploads/2023/11/Youtube-not-working.webp"
+                    alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="learning-card">
+                <a class="learn-title d-block mt-3 mt-lg-0" href="#"> How To Transfer All Your Legal Affairs to Online
+                </a>
+                <div class="learning-timeline d-flex justify-content-between align-items-center">
+                  <a href="#" class="learning-aut-n"> Cortes Mendez</a>
+                  <span class="learning-date ">Nov 20th</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- new html end -->
+  <!-- <section class="popular-courses space">
+    <div class="container">
+      <div class="row align-items-center sub-spaceing">
+        <div class="col-lg-5">
+          <div class="heading mb-3 vertical-sep"> Check out our Most Popular Course </div>
+          <div class="seprator d-flex">
+            <div class="sm-yellow mt-2 me-1"></div>
+            <div class="big-line mt-2"></div>
+            <div class="sm-blue mt-2 ms-1"></div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <p class="mb-0 mt-lg-0 mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quo,
+            accusamus non commodi odit, aperiam tenetur hic voluptas assumenda animi consequuntur rem velit, culpa
+            perspiciatis iste officiis quos exercitationem fugit!</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="tab">
+          <div class="d-lg-flex align-items-start">
+            <div class="col-lg-3">
+              <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                  aria-selected="true">
+                  <i class="fa-solid fa-angles-right"></i> Business & Management </button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                  aria-selected="false">
+                  <i class="fa-solid fa-angles-right"></i>Creative Arts & Media </button>
+                <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled"
+                  aria-selected="false">
+                  <i class="fa-solid fa-angles-right"></i> Nature & Environment </button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                  aria-selected="false">
+                  <i class="fa-solid fa-angles-right"></i> Politics & Society </button>
+                <button class="nav-link" id="healthcare" data-bs-toggle="pill" data-bs-target="#v-pills-Healthcare"
+                  type="button" role="tab" aria-controls="v-pills-Healthcare" aria-selected="false">
+                  <i class="fa-solid fa-angles-right"></i> Healthcare & Medicine </button>
+                <button class="nav-link" id="Computer" data-bs-toggle="pill" data-bs-target="#v-pills-Computer"
+                  type="button" role="tab" aria-controls="v-pills-Computer" aria-selected="false">
+                  <i class="fa-solid fa-angles-right"></i> IT & Computer Science </button>
+                <button class="nav-link" id="Science" data-bs-toggle="pill" data-bs-target="#v-pills-Science"
+                  type="button" role="tab" aria-controls="v-pills-Science" aria-selected="false">
+                  <i class="fa-solid fa-angles-right"></i> Science, Engineering </button>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                  aria-labelledby="v-pills-home-tab" tabindex="0">
+                  <div class="row mt-4 mt-lg-0">
+                    <div class="col-lg-4">
+                      <div class="popular-card">
+                        <div class="card-img">
+                          <img src="https://getassist.net/wp-content/uploads/2023/03/online-education-1.webp"
+                            class="img-fluid" alt="">
+                        </div>
+                        <div class="card-content px-3 pt-lg-0 pt-md-3">
+                          <div class="date-circle d-flex flex-column">
+                            <span>25</span>
+                            <span>Jan </span>
+                          </div>
+                          <div class="card-heading fw-semibold">
+                            <a href="#" class="text-decoration-none">PGP in Data Science and Business Analytics</a>
+                          </div>
+                          <ul class="post-bar p-0 d-flex mt-2">
+                            <li class="me-3">
+                              <i class="fa fa-calendar me-3"></i>12 months
+                            </li>
+                            <li> | </li>
+                            <li class="ms-3">
+                              <a href="#" class="text-decoration-none primary">Online</a>
+                            </li>
+                          </ul>
+                          <div class="card-category">
+                            <a href="#" class="text-dark text-decoration-none">Dedicated Career Support </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                      <div class="popular-card">
+                        <div class="card-img">
+                          <img src="https://getassist.net/wp-content/uploads/2023/03/online-education-1.webp"
+                            class="img-fluid" alt="">
+                        </div>
+                        <div class="card-content px-3 pt-lg-0 pt-md-3">
+                          <div class="date-circle d-flex flex-column">
+                            <span>25</span>
+                            <span>Jan </span>
+                          </div>
+                          <div class="card-heading fw-semibold">
+                            <a href="#" class="text-decoration-none">PGP in Data Science and Business Analytics</a>
+                          </div>
+                          <ul class="post-bar p-0 d-flex mt-2">
+                            <li class="me-3">
+                              <i class="fa fa-calendar me-3"></i>12 months
+                            </li>
+                            <li> | </li>
+                            <li class="ms-3">
+                              <a href="#" class="text-decoration-none primary">Online</a>
+                            </li>
+                          </ul>
+                          <div class="card-category">
+                            <a href="#" class="text-dark text-decoration-none">Dedicated Career Support </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                      <div class="popular-card">
+                        <div class="card-img">
+                          <img src="https://getassist.net/wp-content/uploads/2023/03/online-education-1.webp"
+                            class="img-fluid" alt="">
+                        </div>
+                        <div class="card-content px-3 pt-lg-0 pt-md-3">
+                          <div class="date-circle d-flex flex-column">
+                            <span>25</span>
+                            <span>Jan </span>
+                          </div>
+                          <div class="card-heading fw-semibold">
+                            <a href="#" class="text-decoration-none">PGP in Data Science and Business Analytics</a>
+                          </div>
+                          <ul class="post-bar p-0 d-flex mt-2">
+                            <li class="me-3">
+                              <i class="fa fa-calendar me-3"></i>12 months
+                            </li>
+                            <li> | </li>
+                            <li class="ms-3">
+                              <a href="#" class="text-decoration-none primary">Online</a>
+                            </li>
+                          </ul>
+                          <div class="card-category">
+                            <a href="#" class="text-dark text-decoration-none">Dedicated Career Support </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">..c.</div>
+                <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab"
+                  tabindex="0">..n.</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
+                  tabindex="0">p...</div>
+                <div class="tab-pane fade" id="v-pills-Healthcare" role="tabpanel" aria-labelledby="healthcare"
+                  tabindex="0">f...</div>
+                <div class="tab-pane fade" id="v-pills-Computer" role="tabpanel" aria-labelledby="Computer"
+                  tabindex="0">I...</div>
+                <div class="tab-pane fade" id="v-pills-Science" role="tabpanel" aria-labelledby="Science" tabindex="0">
+                  S...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- <section class="curve-cards space">
+    <div class="container">
+      <div class="row align-items-center sub-spaceing">
+        <div class="col-lg-10">
+          <div class="heading"> Our Courses </div>
+          <div class="seprator d-flex">
+            <div class="sm-yellow mt-2 me-1"></div>
+            <div class="big-line mt-2"></div>
+            <div class="sm-blue mt-2 ms-1"></div>
+          </div>
+        </div>
+        <div class="col-lg-2 d-lg-block d-none">
+          <a href="#" class="btn btn-primary">View All Posts</a>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4">
+          <div class="card-box card-border">
+            <div class="card-img">
+              <a href="#">
+                <img src="https://getassist.net/wp-content/uploads/2022/03/Online-Assignment-Assistance-Services.jpg"
+                  class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="card-content pb-3 px-3 mt-3">
+              <div class="card-heading fw-semibold">
+                <a href="#" class="text-decoration-none"> Why Using Online Assignment Help Saves the Day? </a>
+              </div>
+              <hr>
+              <div class="author">
+                <a href="#" class="text-decoration-none primary">
+                  <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a>
+              </div>
+              <div class="category-skew">
+                <a href="#" class="text-decoration-none">Reviews</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="card-box card-border">
+            <div class="card-img">
+              <a href="#">
+                <img src="https://getassist.net/wp-content/uploads/2022/03/Online-Assignment-Assistance-Services.jpg"
+                  class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="card-content pb-3 px-3 mt-3">
+              <div class="card-heading fw-semibold">
+                <a href="#" class="text-decoration-none"> Why Using Online Assignment Help Saves the Day? </a>
+              </div>
+              <hr>
+              <div class="author">
+                <a href="#" class="text-decoration-none primary">
+                  <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a>
+              </div>
+              <div class="category-skew">
+                <a href="#" class="text-decoration-none">Reviews</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="card-box card-border">
+            <div class="card-img">
+              <a href="#">
+                <img src="https://getassist.net/wp-content/uploads/2022/03/Online-Assignment-Assistance-Services.jpg"
+                  class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="card-content pb-3 px-3 mt-3">
+              <div class="card-heading fw-semibold">
+                <a href="#" class="text-decoration-none"> Why Using Online Assignment Help Saves the Day? </a>
+              </div>
+              <hr>
+              <div class="author">
+                <a href="#" class="text-decoration-none primary">
+                  <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a>
+              </div>
+              <div class="category-skew">
+                <a href="#" class="text-decoration-none">Reviews</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- <section class="programmes space">
+    <div class="container">
+      <div class="row sub-spaceing">
+        <div class="col-lg-12">
+          <div class="heading"> Programmes </div>
+          <div class="seprator d-flex">
+            <div class="sm-yellow mt-2 me-1"></div>
+            <div class="big-line mt-2"></div>
+            <div class="sm-blue mt-2 ms-1"></div>
+          </div>
+        </div>
+        <div class="row mt-5 pe-0">
+          <div class="col-lg-4">
+            <div class="card-box card-border">
+              <div class="card-img1">
+                <a href="#">
+                  <img src="https://getassist.net/wp-content/uploads/2022/03/Online-Assignment-Assistance-Services.jpg"
+                    class="img-fluid" alt="">
+                </a>
+              </div>
+              <div class="card-content pb-3 px-3 mt-3">
+                <div class="card-heading fw-semibold">
+                  <a href="#" class="text-decoration-none"> Why Using Online Assignment Help Saves the Day? </a>
+                </div>
+                <p class="my-2">It has survived not only five centuries, but also the leap into electronic typesetting,
+                  remaining essentially unchanged.</p>
+                <hr>
+                <div class="author-details d-flex align-items-center ">
+                  <div class="author-img">
+                    <a href="#">
+                      <img src="https://secure.gravatar.com/avatar/b558221f5d2e651fd42c71f9fd1e9572?s=96&d=mm&r=g"
+                        class="img-fluid" alt="">
+                    </a>
+                  </div>
+                  <div class="author-name-dt ms-3">
+                    <div class="auth-name">
+                      <a href="#" class="text-decoration-none primary">Prakhar Shivhare</a>
+                    </div>
+                    <span class="m-0">January 24, 2021</span>
+                    <span class="ms-2">&#x2022; 4 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-12 mt-4 mt-lg-0">
+                <div class="card-box card-border">
+                  <div class="row flex-column-reverse flex-lg-row">
+                    <div class="col-lg-7">
+                      <div class="card-content pb-3 px-3 mt-3">
+                        <div class="card-heading fw-semibold">
+                          <a href="#" class="text-decoration-none"> Why Using Online Assignment Help Saves the Day? </a>
+                        </div>
+                        <p class="my-2">It has survived not only five centuries, but also the leap into electronic
+                          typesetting, remaining essentially unchanged.</p>
+                        <hr>
+                        <div class="author-details d-flex align-items-center ">
+                          <div class="author-img">
+                            <a href="#">
+                              <img
+                                src="https://secure.gravatar.com/avatar/b558221f5d2e651fd42c71f9fd1e9572?s=96&d=mm&r=g"
+                                class="img-fluid" alt="">
+                            </a>
+                          </div>
+                          <div class="author-name-dt ms-3">
+                            <div class="auth-name">
+                              <a href="#" class="text-decoration-none primary">Prakhar Shivhare</a>
+                            </div>
+                            <span class="m-0">January 24, 2021</span>
+                            <span class="ms-2">&#x2022; 4 min read</span>
+                          </div>
+                        </div>
+                        <div class="category-skew">
+                          <a href="#" class="text-decoration-none">Reviews</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <div class="card-img">
+                        <a href="#">
+                          <img
+                            src="https://getassist.net/wp-content/uploads/2021/12/Technology-is-Affecting-Education.jpg"
+                            class="img-fluid" style="height:280px;object-fit: cover;" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 mt-4">
+                <div class="card-box card-border">
+                  <div class="row flex-column-reverse flex-lg-row">
+                    <div class="col-lg-7">
+                      <div class="card-content pb-3 px-3 mt-3">
+                        <div class="card-heading fw-semibold">
+                          <a href="#" class="text-decoration-none"> Why Using Online Assignment Help Saves the Day? </a>
+                        </div>
+                        <p class="my-2">It has survived not only five centuries, but also the leap into electronic
+                          typesetting, remaining essentially unchanged.</p>
+                        <hr>
+                        <div class="author-details d-flex align-items-center ">
+                          <div class="author-img">
+                            <a href="#">
+                              <img
+                                src="https://secure.gravatar.com/avatar/b558221f5d2e651fd42c71f9fd1e9572?s=96&d=mm&r=g"
+                                class="img-fluid" alt="">
+                            </a>
+                          </div>
+                          <div class="author-name-dt ms-3">
+                            <div class="auth-name">
+                              <a href="#" class="text-decoration-none primary">Prakhar Shivhare</a>
+                            </div>
+                            <span class="m-0">January 24, 2021</span>
+                            <span class="ms-2">&#x2022; 4 min read</span>
+                          </div>
+                        </div>
+                        <div class="category-skew">
+                          <a href="#" class="text-decoration-none">Reviews</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <div class="card-img">
+                        <a href="#">
+                          <img
+                            src="https://getassist.net/wp-content/uploads/2021/12/Technology-is-Affecting-Education.jpg"
+                            class="img-fluid" style="height:280px;object-fit: cover;" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section> -->
+  <!-- new html -->
+  <section class="tools mt-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center mt-4 mb-0">
+          Tools </div>
+        <div class="seprator d-flex justify-content-center mb-4">
+          <div class="sm-yellow mt-2 me-1"></div>
+          <div class="big-line mt-2"></div>
+          <div class="sm-blue mt-2 ms-1"></div>
+        </div>
+  <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+
+        </p>
+        <div class="col-lg-3 col-md-6">
+            <div class="tools-card text-center rounded-3 bg-white p-4 position-relative mb-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="68" height="59" viewBox="0 0 68 59" fill="none">
+                <circle opacity="0.1" cx="20.5" cy="38.5" r="19.5" fill="#125064"/>
+                <path id="color-white-hov" d="M43.2243 2.63772C42.7488 3.22301 42.4585 3.89331 42.3202 4.58456C42.13 5.5395 42.2226 6.53509 42.508 7.40871C42.671 7.91267 42.3956 8.45359 41.8904 8.61747C41.7916 8.64828 41.6915 8.66429 41.5939 8.66429L13.2016 8.66553V46.7422C13.2634 48.0459 13.4746 48.9355 13.9761 49.4456C14.4726 49.9508 15.352 50.1849 16.77 50.2034L46.4431 50.1997V41.4735C47.1595 41.4254 47.8253 41.1592 48.3675 40.7366V43.5373H53.7206C54.2418 43.541 54.6704 43.9575 54.6803 44.4787C54.7359 47.2758 54.3789 49.2436 53.2525 50.5213C52.1162 51.8077 50.3375 52.2969 47.5968 52.101C47.535 52.1133 47.4708 52.1207 47.4053 52.1207L16.7502 52.1158C14.7863 52.0899 13.4833 51.6783 12.6063 50.7875C11.7182 49.8843 11.3625 48.5868 11.281 46.7841L11.2761 8.66553H6.12673C5.59562 8.66553 5.16455 8.2355 5.16455 7.70566L5.17196 7.58614C5.23866 6.09398 5.56721 4.56854 6.28483 3.31542L6.31941 3.25997C6.97033 2.14855 7.92387 1.25522 9.25782 0.773439C9.36528 0.736474 9.47398 0.717991 9.58143 0.717991L42.7995 0.714294L42.897 0.719223H42.9452C44.5398 0.732777 45.9034 0.991534 46.9014 1.85406C47.9105 2.72521 48.4577 4.12126 48.365 6.35766L48.3663 13.9663C47.6807 14.3742 47.0409 14.8141 46.4456 15.2823L46.4468 6.31577C46.5172 4.71763 46.2159 3.7935 45.6465 3.30063C45.1104 2.83857 44.2619 2.66976 43.2243 2.63772ZM19.8751 39.1952C19.3514 39.1952 18.9265 38.7676 18.9265 38.239C18.9265 37.7116 19.3514 37.2841 19.8751 37.2841H32.0611C32.5836 37.2841 33.0084 37.7116 33.0084 38.239C33.0084 38.7676 32.5836 39.1952 32.0611 39.1952H19.8751ZM19.8751 33.3891C19.3514 33.3891 18.9265 32.9616 18.9265 32.433C18.9265 31.9056 19.3514 31.478 19.8751 31.478H35.5714C36.0951 31.478 36.52 31.9056 36.52 32.433C36.52 32.9616 36.0951 33.3891 35.5714 33.3891H19.8751ZM19.512 27.5831C18.9611 27.5831 18.5128 27.1543 18.5128 26.6257C18.5128 26.0984 18.9611 25.6696 19.512 25.6696H38.1343C38.6852 25.6696 39.1335 26.0984 39.1335 26.6257C39.1335 27.1543 38.6852 27.5831 38.1343 27.5831H19.512ZM19.8455 21.7685C19.3144 21.7685 18.8833 21.3434 18.8833 20.8197C18.8833 20.2948 19.3144 19.8697 19.8455 19.8697H39.7523C40.2835 19.8697 40.7145 20.2948 40.7145 20.8197C40.7145 21.3434 40.2835 21.7685 39.7523 21.7685H19.8455ZM19.8751 15.9748C19.3428 15.9748 18.9117 15.5435 18.9117 15.0137C18.9117 14.4839 19.3428 14.0538 19.8751 14.0538H39.7808C40.3119 14.0538 40.7442 14.4839 40.7442 15.0137C40.7442 15.5435 40.3119 15.9748 39.7808 15.9748H19.8751ZM48.3675 45.4583V50.2194C50.088 50.27 51.1812 49.9644 51.8074 49.2534C52.462 48.5116 52.73 47.2573 52.7634 45.4583H48.3675ZM40.4329 4.20998C40.5404 3.67152 40.7133 3.14168 40.9616 2.63526H9.75065C8.9651 2.95932 8.38828 3.52366 7.97945 4.21984L7.95351 4.26789C7.53974 4.99118 7.29271 5.85247 7.17043 6.74457H40.3835C40.2588 5.92024 40.2649 5.05402 40.4329 4.20998Z" fill="#054A66"/>
+                <path d="M39.9323 38.7043C39.1538 41.1312 38.0206 43.468 37.8384 45.8455L39.1885 45.6198C40.825 39.2383 42.4181 34.9087 46.1845 29.351C49.0074 25.1842 52.1688 21.7955 56.3431 18.9679C58.566 17.4623 61.4324 15.7778 64.0892 15.197C64.8145 15.0379 65.5583 14.9491 66.3245 14.9504C58.1619 17.519 51.9358 22.4405 47.2135 29.4447C45.2869 32.2994 43.664 35.4316 42.2061 38.7117L45.4146 39.0299L44.0459 38.4848L48.695 37.3578C46.8974 36.8842 45.1865 37.2295 44.5778 36.6129C49.4079 36.0013 53.3045 34.6387 55.9365 32.3894C54.8827 32.329 53.6727 32.2969 53.023 32.0503C57.5804 30.0933 60.0575 27.0413 63.2895 24.2507C58.8983 25.5467 54.7513 25.7268 53.4855 24.9795C61.4175 24.9215 66.3356 22.3418 67.6324 16.7335C67.7341 16.1305 67.7279 15.5324 67.5841 14.9393C66.6506 11.0832 59.5888 10.3261 57.5891 13.7147C57.1887 14.393 56.5985 15.0305 56.1311 15.816L57.9561 11.6233C52.3201 14.0403 52.0188 16.2267 49.5492 22.9374C49.6261 20.9496 50.0278 19.1221 50.6055 17.3809C43.5909 20.7474 41.7511 27.9415 41.8527 33.9247C41.4734 31.8653 41.6457 29.2252 42.1515 26.2348C40.2113 28.5137 38.9752 31.1033 39.7774 34.5931L38.7732 34.2416L39.4364 36.095L37.9338 35.5302L39.9323 38.7043Z" fill="#FDC11F"/>
+              </svg>
+            <div class="fw-semibold fs-5 mb-2 mt-4 tools-title">Essay Generator</div>
+            <p class="mb-3 lh-base">It is a long established  reader will be that a reader will be  </p>
+            <a href="#" class="btn btn-primary">Enroll Now
+              <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+              </svg>
+          </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="tools-card text-center rounded-3 bg-white p-4 position-relative mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="60" viewBox="0 0 70 60" fill="none">
+              <circle opacity="0.1" cx="23.9688" cy="35.9688" r="22.9688" fill="#125064"/>
+              <path id="color-white-hov" fill-rule="evenodd" clip-rule="evenodd" d="M30.0457 41.619C30.1527 42.1219 30.2807 42.6223 30.4301 43.119H20.6852C18.5978 43.119 16.8916 44.8266 16.8916 46.9108C16.8916 48.9973 18.6 50.7037 20.6852 50.7037H34.8125L35.208 51.11C35.5153 51.4172 35.8318 51.7127 36.1569 51.9963C36.7812 52.5408 37.437 53.0413 38.1205 53.4963H20.8291C17.0729 53.4963 14 50.4259 14 46.6714V9.19377C14 5.23725 17.2377 2 21.196 2H55.881C56.6434 2 57.2664 2.62373 57.2664 3.38692V20.6439C56.7763 20.3962 56.2758 20.1699 55.7664 19.9657C53.5362 19.0718 51.1344 18.6003 48.6794 18.6003C46.1031 18.6003 43.6389 19.1142 41.3933 20.0476C39.0796 21.0045 36.9782 22.4096 35.2102 24.182C30.6219 28.7661 28.7179 35.3805 30.0457 41.619ZM34.1487 23.1222C29.2756 27.9918 27.2099 34.9802 28.5146 41.619ZM28.5146 41.619H20.6852C18.1348 41.619 15.996 43.4392 15.5 45.8446V9.19377C15.5 6.06604 18.0657 3.5 21.196 3.5H55.7664V18.3591C53.5195 17.5337 51.1235 17.1003 48.6794 17.1003C45.9029 17.1003 43.2436 17.6542 40.8188 18.662C38.3229 19.6944 36.056 21.2102 34.1487 23.1222M20.3907 44.8464C20.0864 44.8464 19.8392 45.0935 19.8392 45.3976V45.7326C19.8392 45.9356 19.9511 46.1135 20.1158 46.2088C20.197 46.2558 20.291 46.2827 20.3907 46.2827H31.2892C31.2728 46.252 31.2566 46.2213 31.2404 46.1905C31.0089 45.75 30.7968 45.3011 30.6047 44.8464H20.3907ZM20.3907 47.6905C20.2907 47.6905 20.1968 47.7174 20.1159 47.7643C19.9506 47.8601 19.8392 48.039 19.8392 48.2418V48.5767C19.8392 48.8798 20.0886 49.1268 20.3907 49.1268H33.1261C32.8459 48.7656 32.5768 48.3933 32.3197 48.0112L32.111 47.6905H20.3907ZM22.5331 6.11468H23.7317C24.8609 6.11468 26.3468 6.90949 26.3468 8.51623V36.7928C26.3468 38.4003 24.8575 39.1932 23.7317 39.1932H22.5331C21.4052 39.1932 19.9191 38.3986 19.9191 36.7928V8.51514C19.9191 6.9093 21.4052 6.11468 22.5331 6.11468ZM23.7317 7.61468H22.5331C21.92 7.61468 21.4191 8.01988 21.4191 8.51514V36.7928C21.4191 37.288 21.92 37.6932 22.5331 37.6932H23.7317C24.3447 37.6932 24.8468 37.288 24.8468 36.7928V8.51623C24.8468 8.01988 24.3458 7.61468 23.7317 7.61468Z" fill="#125064"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M48.6617 22.201C52.853 22.201 56.8564 23.8592 59.8194 26.8197C63.9129 30.9113 65.4356 36.9433 63.7866 42.4811C63.4079 43.7527 62.8693 44.9711 62.1837 46.1071L68.2954 52.765C68.4305 52.9125 68.5017 53.1074 68.4934 53.3072C68.4852 53.507 68.3982 53.6954 68.2514 53.8312L63.7635 57.9272C63.457 58.2083 62.9802 58.1864 62.6989 57.88L56.8531 51.4527C54.3779 52.9604 51.561 53.7467 48.6617 53.7467C44.4704 53.7467 40.467 52.0885 37.504 49.1269C36.0374 47.6608 34.8738 45.9205 34.0796 44.0053C31.634 38.1172 33.0238 31.3001 37.5062 26.8219C38.9553 25.3702 40.6922 24.1996 42.6269 23.3991C44.488 22.626 46.5282 22.201 48.6617 22.201ZM57.565 29.0742C53.9714 25.4811 48.5244 24.4017 43.8442 26.3399C35.4463 29.8154 33.5171 40.6385 39.7562 46.8714C43.3564 50.4611 48.7914 51.5461 53.4781 49.6068C58.1891 47.651 61.252 43.0708 61.252 37.9733C61.252 36.2658 60.9148 34.6372 60.3017 33.1603C59.6623 31.6229 58.7274 30.236 57.565 29.0742Z" fill="#FDC11F"/>
+            </svg>
+          <div class="fw-semibold fs-5 mb-2 mt-4 tools-title">Dictionary
+          </div>
+          <p class="mb-3 lh-base">It is a long established  reader will be that a reader will be  </p>
+          <a href="#" class="btn btn-primary">Enroll Now
+            <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+            </svg>
+        </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="tools-card text-center rounded-3 bg-white p-4 position-relative mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="65" height="58" viewBox="0 0 65 58" fill="none">
+            <circle opacity="0.1" cx="25.5" cy="32.5" r="24.5" fill="#125064"/>
+            <path d="M35.7393 43.7162C35.8782 43.5308 35.9503 43.3038 35.9438 43.0723C35.9372 42.8407 35.8524 42.6181 35.7031 42.4409L22.9988 29.7366C22.8217 29.5872 22.5991 29.5023 22.3675 29.4958C22.1359 29.4892 21.9089 29.5614 21.7235 29.7005L17.6452 31.493C17.5195 31.5501 17.4094 31.6365 17.3241 31.745C17.2388 31.8534 17.1807 31.9808 17.1548 32.1163C17.1288 32.2518 17.1358 32.3916 17.1751 32.5239C17.2144 32.6562 17.2848 32.7772 17.3805 32.8766L32.5632 48.0593C32.6626 48.1549 32.7835 48.2254 32.9158 48.2646C33.0481 48.3039 33.1879 48.3109 33.3234 48.2849C33.459 48.259 33.5863 48.2009 33.6948 48.1156C33.8032 48.0303 33.8896 47.9202 33.9467 47.7945L35.7393 43.7162ZM50.0618 5.39255C51.2633 12.5346 56.6312 15.3656 61.7555 15.5105C62.24 11.9303 62.0996 8.29313 61.3405 4.76094C61.307 4.59801 61.2265 4.44847 61.1089 4.33086C60.9913 4.21325 60.8418 4.13272 60.6788 4.09926C57.1467 3.34019 53.5096 3.19976 49.9294 3.68421C49.945 4.25551 49.9891 4.82567 50.0618 5.39255Z" fill="#FDC11F"/>
+            <path d="M53.5868 32.0886C57.5663 27.9702 60.2966 22.8079 61.4609 17.2006C57.9688 17.154 54.6328 15.746 52.1632 13.2765C49.6937 10.8069 48.2858 7.47085 48.2393 3.9787C35.8112 6.34569 26.9583 17.2133 22.4937 27.7877C23.1377 27.8078 23.7494 28.0748 24.202 28.5335L36.9063 41.2379C37.365 41.6905 37.6321 42.3022 37.6522 42.9462C43.6484 40.4512 49.071 36.7563 53.5868 32.0886ZM36.8823 28.5576C35.6718 27.3441 34.992 25.7 34.992 23.9859C34.992 22.2719 35.6718 20.6278 36.8823 19.4143C43.148 13.579 51.8602 22.2943 46.0255 28.5577C44.8119 29.7682 43.1679 30.4479 41.4539 30.4479C39.7398 30.4479 38.0958 29.7681 36.8823 28.5576Z" fill="#FDC11F"/>
+            <path id="color-white-hov" d="M44.8226 20.6174C40.2308 16.3049 33.7734 22.7644 38.0855 27.3546C42.6773 31.6669 49.1346 25.2074 44.8226 20.6174ZM32.1904 10.6079C32.3829 10.4274 32.5814 10.2409 32.7979 10.0484C27.5153 9.30729 22.1305 9.99052 17.2003 12.0275C14.3671 13.1437 14.8527 17.5442 17.8982 17.9465C20.2007 18.2863 22.3887 19.171 24.2803 20.5271C26.448 16.8725 29.1099 13.5346 32.1904 10.6079ZM53.4065 48.2337C55.45 43.3074 56.1355 37.9233 55.3916 32.642C52.3423 35.988 48.808 38.8572 44.9068 41.1537C46.2672 43.0458 47.1541 45.2364 47.4934 47.5419C47.5938 48.2116 47.9119 48.8296 48.3984 49.3006C48.8849 49.7716 49.5129 50.0694 50.1855 50.1481C50.8581 50.2268 51.5379 50.082 52.12 49.736C52.7021 49.39 53.1542 48.8621 53.4065 48.2337ZM17.0378 47.1991C16.8831 47.3596 16.7975 47.5744 16.7996 47.7974C16.8016 48.0203 16.8911 48.2336 17.0488 48.3912C17.2064 48.5489 17.4197 48.6383 17.6426 48.6404C17.8656 48.6424 18.0804 48.5568 18.2409 48.4021L24.3705 42.2726L23.1674 41.0695L17.0378 47.1991ZM14.6557 40.0529C14.5009 40.2134 14.4153 40.4283 14.4173 40.6513C14.4193 40.8743 14.5088 41.0876 14.6665 41.2453C14.8242 41.403 15.0375 41.4924 15.2605 41.4944C15.4835 41.4964 15.6984 41.4108 15.8589 41.2559L19.6064 37.5084L18.4033 36.3054L14.6557 40.0529ZM24.184 49.5811C24.0293 49.7417 23.9437 49.9565 23.9458 50.1795C23.9478 50.4024 24.0373 50.6156 24.1949 50.7733C24.3526 50.9309 24.5658 51.0204 24.7888 51.0225C25.0117 51.0245 25.2266 50.9389 25.3871 50.7842L29.1346 47.0367L27.9315 45.8336L24.184 49.5811Z " fill="#125064"/>
+          </svg>
+        <div class="fw-semibold fs-5 mb-2 mt-4 tools-title">Main Heading</div>
+        <p class="mb-3 lh-base">It is a long established  reader will be that a reader will be  </p>
+        <a href="#" class="btn btn-primary">Enroll Now
+          <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+          </svg>
+      </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="tools-card text-center rounded-3 bg-white p-4 position-relative mb-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="65" height="58" viewBox="0 0 65 58" fill="none">
+          <circle opacity="0.1" cx="25.5" cy="32.5" r="24.5" fill="#125064"/>
+          <path d="M35.7393 43.7162C35.8782 43.5308 35.9503 43.3038 35.9438 43.0723C35.9372 42.8407 35.8524 42.6181 35.7031 42.4409L22.9988 29.7366C22.8217 29.5872 22.5991 29.5023 22.3675 29.4958C22.1359 29.4892 21.9089 29.5614 21.7235 29.7005L17.6452 31.493C17.5195 31.5501 17.4094 31.6365 17.3241 31.745C17.2388 31.8534 17.1807 31.9808 17.1548 32.1163C17.1288 32.2518 17.1358 32.3916 17.1751 32.5239C17.2144 32.6562 17.2848 32.7772 17.3805 32.8766L32.5632 48.0593C32.6626 48.1549 32.7835 48.2254 32.9158 48.2646C33.0481 48.3039 33.1879 48.3109 33.3234 48.2849C33.459 48.259 33.5863 48.2009 33.6948 48.1156C33.8032 48.0303 33.8896 47.9202 33.9467 47.7945L35.7393 43.7162ZM50.0618 5.39255C51.2633 12.5346 56.6312 15.3656 61.7555 15.5105C62.24 11.9303 62.0996 8.29313 61.3405 4.76094C61.307 4.59801 61.2265 4.44847 61.1089 4.33086C60.9913 4.21325 60.8418 4.13272 60.6788 4.09926C57.1467 3.34019 53.5096 3.19976 49.9294 3.68421C49.945 4.25551 49.9891 4.82567 50.0618 5.39255Z" fill="#FDC11F"/>
+          <path d="M53.5868 32.0886C57.5663 27.9702 60.2966 22.8079 61.4609 17.2006C57.9688 17.154 54.6328 15.746 52.1632 13.2765C49.6937 10.8069 48.2858 7.47085 48.2393 3.9787C35.8112 6.34569 26.9583 17.2133 22.4937 27.7877C23.1377 27.8078 23.7494 28.0748 24.202 28.5335L36.9063 41.2379C37.365 41.6905 37.6321 42.3022 37.6522 42.9462C43.6484 40.4512 49.071 36.7563 53.5868 32.0886ZM36.8823 28.5576C35.6718 27.3441 34.992 25.7 34.992 23.9859C34.992 22.2719 35.6718 20.6278 36.8823 19.4143C43.148 13.579 51.8602 22.2943 46.0255 28.5577C44.8119 29.7682 43.1679 30.4479 41.4539 30.4479C39.7398 30.4479 38.0958 29.7681 36.8823 28.5576Z" fill="#FDC11F"/>
+          <path id="color-white-hov" d="M44.8226 20.6174C40.2308 16.3049 33.7734 22.7644 38.0855 27.3546C42.6773 31.6669 49.1346 25.2074 44.8226 20.6174ZM32.1904 10.6079C32.3829 10.4274 32.5814 10.2409 32.7979 10.0484C27.5153 9.30729 22.1305 9.99052 17.2003 12.0275C14.3671 13.1437 14.8527 17.5442 17.8982 17.9465C20.2007 18.2863 22.3887 19.171 24.2803 20.5271C26.448 16.8725 29.1099 13.5346 32.1904 10.6079ZM53.4065 48.2337C55.45 43.3074 56.1355 37.9233 55.3916 32.642C52.3423 35.988 48.808 38.8572 44.9068 41.1537C46.2672 43.0458 47.1541 45.2364 47.4934 47.5419C47.5938 48.2116 47.9119 48.8296 48.3984 49.3006C48.8849 49.7716 49.5129 50.0694 50.1855 50.1481C50.8581 50.2268 51.5379 50.082 52.12 49.736C52.7021 49.39 53.1542 48.8621 53.4065 48.2337ZM17.0378 47.1991C16.8831 47.3596 16.7975 47.5744 16.7996 47.7974C16.8016 48.0203 16.8911 48.2336 17.0488 48.3912C17.2064 48.5489 17.4197 48.6383 17.6426 48.6404C17.8656 48.6424 18.0804 48.5568 18.2409 48.4021L24.3705 42.2726L23.1674 41.0695L17.0378 47.1991ZM14.6557 40.0529C14.5009 40.2134 14.4153 40.4283 14.4173 40.6513C14.4193 40.8743 14.5088 41.0876 14.6665 41.2453C14.8242 41.403 15.0375 41.4924 15.2605 41.4944C15.4835 41.4964 15.6984 41.4108 15.8589 41.2559L19.6064 37.5084L18.4033 36.3054L14.6557 40.0529ZM24.184 49.5811C24.0293 49.7417 23.9437 49.9565 23.9458 50.1795C23.9478 50.4024 24.0373 50.6156 24.1949 50.7733C24.3526 50.9309 24.5658 51.0204 24.7888 51.0225C25.0117 51.0245 25.2266 50.9389 25.3871 50.7842L29.1346 47.0367L27.9315 45.8336L24.184 49.5811Z " fill="#125064"/>
+        </svg>
+      <div class="fw-semibold fs-5 mb-2 mt-4 tools-title">Main Heading</div>
+      <p class="mb-3 lh-base">It is a long established  reader will be that a reader will be  </p>
+      <a href="#" class="btn btn-primary">Enroll Now
+        <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+        </svg>
+    </a>
+    </div>
+  </div>
+      </div>
+    </div>
+  </section>
+  <section class="why-choose space py-5">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-7">
+          <div class="sub-heading text-white">
+            <i class="fa-solid fa-book-open-reader fs-2 text-white"></i> Popular Courses
+          </div>
+          <div class="heading text-white"> We Help you to Build for Better Future </div>
+          <div class="seprator d-flex mb-4">
+            <div class="sm-yellow me-1 bg-white"></div>
+            <div class="bg-white big-lines "></div>
+            <div class="sm-blue ms-1 bg-white"></div>
+          </div>
+          <p class="text-white">Our community is being called to reimagine the future. As the only university where a
+            renowned design school comes together with premier colleges, we are making learning more relevant and
+            transformational.</p>
+        </div>
+        <div class="col-lg-5">
+          <div class="why-choose-img">
+            <img src="assets/img/eucation-img1.jpg" class="img-fluid ms-auto" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row icon-box-group">
+        <div class="col-lg-10">
+          <div class="row row-cols-lg-5">
+            <div class="col col-md-4 mt-4 mt-md-0 mb-3 mb-lg-0">
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="assets/img/udemy-logo.svg" class="img-fluid" alt="">
+                </div>
+                <div class="icon-box-content">
+                  <a class="icon-title" href="#">Udemy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-4 mt-4 mt-md-0 mb-3 mb-lg-0">
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="assets/img/coursera-logo.svg" class="img-fluid" alt="">
+                </div>
+                <div class="icon-box-content">
+                  <a class="icon-title" href="#">Coursera</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-4 mt-4 mt-md-0 mb-3 mb-lg-0">
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="assets/img/skillshare-logo.svg" class="" alt="">
+                </div>
+                <div class="icon-box-content">
+                  <a class="icon-title" href="#">Skill Share</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-4 mt-4 mt-md-0 mb-3 mb-lg-0">
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="assets/img/youtube-logo.svg" class="" alt="">
+                </div>
+                <div class="icon-box-content">
+                  <a class="icon-title" href="#">Youtube</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-4 mt-4 mt-md-0 mb-3 mb-lg-0">
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="assets/img/datacamp-logo.svg" class="" alt="">
+                </div>
+                <div class="icon-box-content">
+                  <a class="icon-title" href="#">Datacamp</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- new html end -->
+  <!-- <section class="space">
+    <div class="container">
+      <div class="row features">
+        <div class="col-lg-8">
+          <div class="row mb-5 sub-spaceing">
+            <div class="col-lg-12">
+              <div class="heading"> Features </div>
+              <div class="seprator d-flex">
+                <div class="sm-yellow mt-2 me-1"></div>
+                <div class="big-line mt-2"></div>
+                <div class="sm-blue mt-2 ms-1"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row horizontal-card mb-4 sub-spaceing">
+            <div class="col-lg-4">
+              <a href="#">
+                <img src="https://getassist.net/wp-content/uploads/2021/07/e-learning-1.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-lg-8">
+              <div class="card-content card-border p-3 py-4">
+                <div class="category">
+                  <a href="#" class="text-decoration-none text-white">Technology</a>
+                </div>
+                <div class="card-heading fw-semibold mt-3">
+                  <a href="#" class="text-decoration-none">Instagram Feed Not Refreshing? Try These Workarounds!</a>
+                </div>
+                <div class="author mt-3">
+                  <a href="#" class="text-decoration-none primary me-2">
+                    <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a> | <span class="ms-2"> January 24,
+                    2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row horizontal-card mb-4">
+            <div class="col-lg-4">
+              <a href="#">
+                <img src="https://getassist.net/wp-content/uploads/2021/07/e-learning-1.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-lg-8">
+              <div class="card-content card-border p-3 py-4">
+                <div class="category">
+                  <a href="#" class="text-decoration-none text-white">Technology</a>
+                </div>
+                <div class="card-heading fw-semibold mt-3">
+                  <a href="#" class="text-decoration-none">Instagram Feed Not Refreshing? Try These Workarounds!</a>
+                </div>
+                <div class="author mt-3">
+                  <a href="#" class="text-decoration-none primary me-2">
+                    <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a> | <span class="ms-2"> January 24,
+                    2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row horizontal-card mb-4">
+            <div class="col-lg-4">
+              <a href="#">
+                <img src="https://getassist.net/wp-content/uploads/2021/07/e-learning-1.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-lg-8">
+              <div class="card-content card-border p-3 py-4">
+                <div class="category">
+                  <a href="#" class="text-decoration-none text-white">Technology</a>
+                </div>
+                <div class="card-heading fw-semibold mt-3">
+                  <a href="#" class="text-decoration-none">Instagram Feed Not Refreshing? Try These Workarounds!</a>
+                </div>
+                <div class="author mt-3">
+                  <a href="#" class="text-decoration-none primary me-2">
+                    <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a> | <span class="ms-2"> January 24,
+                    2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row horizontal-card">
+            <div class="col-lg-4">
+              <a href="#">
+                <img src="https://getassist.net/wp-content/uploads/2021/07/e-learning-1.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-lg-8">
+              <div class="card-content card-border p-3 py-4">
+                <div class="category">
+                  <a href="#" class="text-decoration-none text-white">Technology</a>
+                </div>
+                <div class="card-heading fw-semibold mt-3">
+                  <a href="#" class="text-decoration-none">Instagram Feed Not Refreshing? Try These Workarounds!</a>
+                </div>
+                <div class="author mt-3">
+                  <a href="#" class="text-decoration-none primary me-2">
+                    <i class="fa-solid fa-user me-2"></i>By Zayn Tindall </a> | <span class="ms-2"> January 24,
+                    2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row mb-5 mt-5 mt-lg-0">
+            <div class="heading"> Latest Blog </div>
+            <div class="seprator d-flex">
+              <div class="sm-yellow mt-2 me-1"></div>
+              <div class="big-line mt-2"></div>
+              <div class="sm-blue mt-2 ms-1"></div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-12">
+              <div class="side-sm-post">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="side-pi">
+                      <a href="#">
+                        <img src="https://getassist.net/wp-content/uploads/2021/08/1-20.jpg" alt=""
+                          class="img-fluid rounded">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7  d-flex align-items-center">
+                    <div class="side-cont mt-lg-0 mt-3 px-2 px-lg-0">
+                      <div class="calender">
+                        <i class="fa fa-calendar me-3"></i>12 months
+                      </div>
+                      <div class="card-heading mt-lg-0 mt-2">
+                        <a href="#" class="a-black text-decoration-none fw-semibold fs-6">How to Get Drone Delivery
+                          Services in 2022</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-12">
+              <div class="side-sm-post">
+                <div class="row">
+                  <div class="col-lg-5 order-lg-1">
+                    <div class="side-pi">
+                      <a href="#">
+                        <img src="https://getassist.net/wp-content/uploads/2021/08/1-20.jpg" alt=""
+                          class="img-fluid rounded">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 order-1 d-flex align-items-center ">
+                    <div class="side-cont mt-lg-0 mt-3 px-2 px-lg-0">
+                      <div class="calender">
+                        <i class="fa fa-calendar me-3"></i>12 months
+                      </div>
+                      <div class="card-heading mt-lg-0 mt-2">
+                        <a href="#" class="a-black text-decoration-none fw-semibold fs-6">How to Get Drone Delivery
+                          Services in 2022</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="side-sm-post">
+                <div class="row">
+                  <div class="col-lg-5 order-lg-1">
+                    <div class="side-pi">
+                      <a href="#">
+                        <img src="https://getassist.net/wp-content/uploads/2021/08/1-20.jpg" alt=""
+                          class="img-fluid rounded">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 order-1 d-flex align-items-center">
+                    <div class="side-cont mt-lg-0 mt-3 px-2 px-lg-0">
+                      <div class="calender">
+                        <i class="fa fa-calendar me-3"></i>12 months
+                      </div>
+                      <div class="card-heading mt-lg-0 mt-2">
+                        <a href="#" class="a-black text-decoration-none fw-semibold fs-6">How to Get Drone Delivery
+                          Services in 2022</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="ad">
+                <img src="assets/img/ad.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section> -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+  <footer class="footer-bg   pt-5 pb-3">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 ">
+          <div class="row newsletter-sec px-lg-5 ">
+            <div class="col-lg-6 text-white  d-flex align-items-center">
+              <div class="envelope-icon">
+                <img src="assets/img/envelope-icon.png" class="img-fluid" alt="">
+              </div>
+              <div class="subscribe-tag-line ms-4">
+                <div class="fs-4 fw-semibold"> Subscribe for Newsletter</div>
+                <p class="m-0">Manage Your Business With Our Software</p>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center mt-lg-0 mt-md-3  ">
+              <form action="" class="w-100">
+                <div class="input-group subscribe">
+                  <input type="email" class="form-control" placeholder="Enter your email..." required="">
+                  <div class="input-group-append">
+                    <input type="submit" class="btn subscribe-btn ms-lg-3" value="Subscribe Now !">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="foot-1">
+            <span class="text-white fs-5 fw-semibold">About Us</span>
+            <div class="foot-sep"></div>
+            <p class="text-white mt-4 mb-3"> All the information provided above is consumed from the internet after
+              in-depth research by our writers, hence we do not take guarantee or responsibility for its accurateness of
+              it. </p>
+            <div class="top-social-icon2">
+              <ul class="p-0 list-unstyled">
+                <li>
+                  <a href="#" target="_blank" rel="nofollow">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="nofollow">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="nofollow">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="nofollow">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="foot-menu foot-head">
+            <span class="text-white fs-5 fw-semibold">Main Link</span>
+            <div class="foot-sep"></div>
+            <ul class="list-unstyled mt-4">
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">Terms &amp; Condition</a>
+              </li>
+              <li>
+                <a href="#">Privacy &amp; Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="foot-menu foot-head">
+            <span class="text-white fs-5 fw-semibold">Category</span>
+            <div class="foot-sep"></div>
+            <ul class="list-unstyled mt-4">
+              <li>
+                <a href="#">Top 10</a>
+              </li>
+              <li>
+                <a href="#">Troubleshoot</a>
+              </li>
+              <li>
+                <a href="#">How to</a>
+              </li>
+              <li>
+                <a href="#">Internet</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="foot-menu foot-head">
+            <span class="text-white fs-5 fw-semibold">Latest Posts</span>
+            <div class="foot-sep"></div>
+            <div class="latest-post">
+              <div class="row mb-3">
+                <div class="col-4">
+                  <a href="#">
+                    <img src="https://getassist.net/wp-content/uploads/2023/01/Applications-from-the-Play-Store.webp"
+                      class="img-fluid" alt="">
+                  </a>
+                </div>
+                <div class="col-8">
+                  <div class="latest-post-h">
+                    <a href="#" class="text-white text-decoration-none"> Instagram Feed Not Refreshing? Try These
+                      Workarounds!</a>
+                    <p class="latest-post-dt text-secondary mb-0">January 24, 2021</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <a href="#">
+                    <img src="https://getassist.net/wp-content/uploads/2023/03/post-on-Facebook.webp" class="img-fluid"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-8">
+                  <div class="latest-post-h">
+                    <a href="#" class="text-white text-decoration-none"> Instagram Feed Not Refreshing? Try These
+                      Workarounds!</a>
+                    <p class="latest-post-dt text-secondary mb-0">January 24, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="text-white">
+      <div class="copywrite text-white text-center"> Copyright © 2023 All Rights Reserved. </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
